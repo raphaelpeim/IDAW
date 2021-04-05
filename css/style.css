@@ -1,0 +1,36 @@
+/* Profil */
+#profilePicture {
+    width: 150px;
+    height: 150px;
+}
+
+/* Food, Diary */
+.foodImage, .diaryImage {
+    width: 100px;
+    text-align: center;
+}
+.foodImage img, .diaryImage img {
+    max-height: 50px;
+}
+#foodNav, #diaryNav {
+    display: flex;
+    justify-content: space-around;
+}
+.foodButton, .diaryButton {
+    padding: 10px 20px 10px 20px;
+    margin: 5px;
+    color: white;
+    background-color: rgb(91, 99, 106);
+}
+.foodButton:hover, .diaryButton:hover {
+    background-color: rgb(84, 91, 98);
+}
+#foodButtonActive, #diaryButtonActive {
+    padding: 10px 20px 10px 20px;
+    margin: 5px;
+    color: white;
+    background-color: rgb(58, 65, 71);
+}
+#addButton {
+    height: 30px;
+}
